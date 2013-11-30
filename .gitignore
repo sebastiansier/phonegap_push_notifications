@@ -1,2 +1,6 @@
 # cordova files
 .cordova/
+
+# android binary/generated files
+platforms/android/bin/
+platforms/android/gen/
