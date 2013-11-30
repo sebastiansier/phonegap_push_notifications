@@ -73,6 +73,7 @@ function onDeviceReady() {
 // handle GCM notifications for Android
 function onNotificationGCM(e) {
   //$("#app-status-ul").append('<li>EVENT -> RECEIVED:' + e.event + '</li>');
+  console.log("*************************************** event received: " + e.event);
   switch( e.event )
   {
     case 'registered':
@@ -92,8 +93,9 @@ function onNotificationGCM(e) {
       {
         //$("#app-status-ul").append('<li>--INLINE NOTIFICATION--' + '</li>');
         // if the notification contains a soundname, play it.
-        var my_media = new Media("/android_asset/www/"+e.soundname);
-        my_media.play();
+        //var my_media = new Media("/android_asset/www/"+e.soundname);
+        //my_media.play();
+        console.log("==================> message received");
       }
       else
       {	// otherwise we were launched because the user touched a notification in the notification tray.
