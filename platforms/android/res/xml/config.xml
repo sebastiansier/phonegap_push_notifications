@@ -12,6 +12,7 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <plugin name="PushPlugin" value="com.plugin.gcm.PushPlugin" />
     <access origin="*" />
     <preference name="useBrowserHistory" value="true" />
     <preference name="exit-on-suspend" value="false" />
