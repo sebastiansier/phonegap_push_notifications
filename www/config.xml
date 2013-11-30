@@ -4,7 +4,7 @@
     <description>
         This is a sample application to test Push Notifications in a Phonegap application.
     </description>
-    <author email="sebastiansier@gmail.com" href="#">
+    <author email="sebastiansier@gmail.com" href="http://google.com">
         Sebastian Sierra
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
